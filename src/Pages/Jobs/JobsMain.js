@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link, Outlet } from 'react-router-dom';
 
-const MainPayment = () => {
+const JobsMain = () => {
     return (
         <div class="drawer drawer-mobile">
         <input id="dashboard-sidebar" type="checkbox" class="drawer-toggle" />
@@ -13,9 +13,12 @@ const MainPayment = () => {
             <label for="dashboard-sidebar" class="drawer-overlay"></label>
             <ul class="menu p-4 overflow-y-auto w-72 py-20 gap-5 text-white text-base-content">
 
-                <li className='text-green-700 text-md uppercase'>Payment Navigation</li>
-                <li><Link to="/payment" className='btn btn-ghost bg-base-300'>Invoices</Link></li>
-                <li><Link to="/payment/bankdetails" className='btn btn-ghost bg-base-300'>My Bank Details</Link></li>
+                <li className='text-green-700 text-md uppercase'>Jobs</li>
+                <li><Link to="/jobs" className='btn btn-ghost bg-base-300'>Solution Writing</Link></li>
+                <li className='text-green-700 text-md uppercase'>For Job Application</li>
+                <li><Link to="/jobs/screening-task" className='btn btn-ghost bg-base-300'>Screening Task</Link></li>
+                <li className='text-green-700 text-md uppercase'>Application Status</li>
+                <li><Link to="/jobs/status" className='btn btn-ghost bg-base-300'>Job APPLICATION STATUS</Link></li>
             </ul>
 
         </div>
@@ -23,4 +26,4 @@ const MainPayment = () => {
     );
 };
 
-export default MainPayment;
+export default JobsMain;

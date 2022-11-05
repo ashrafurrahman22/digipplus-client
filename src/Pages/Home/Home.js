@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import logo from '../../assets/digipplus-logo-70x70.38a25d5cef0d.png'
 import '../../Styles/Home.css'
 
@@ -23,10 +24,10 @@ const Home = () => {
             <h1 className='text-2xl text-green-700 py-4'>Internships</h1>
             </div>
 
-            <div className='card card-body bg-base-100 shadow-xl shadow-green-600 w-72 p-10 my-3'>
+            <Link to='/jobs' className='card card-body bg-base-100 shadow-xl shadow-green-600 w-72 p-10 my-3'>
                 <h1 className='text-xl text-green-700'>Solution Writing</h1>
                 <h1>Write Solution</h1>
-            </div>
+            </Link>
 
         </div>
     );
