@@ -1,0 +1,9 @@
+.clicked {
+        border: 22px;
+        /* border-bottom: brown; */
+        border-color: green;
+}
+
+.notClicked {
+
+}

@@ -1,0 +1,16 @@
+#mike {
+    animation: plane 10s infinite;
+    /* position: fixed; */
+    position: relative;
+    /* position: absolute; */
+}
+
+@keyframes plane {
+
+    12% {
+        left:0%;
+    }
+    100%{
+       left: 80%;
+    }
+}
